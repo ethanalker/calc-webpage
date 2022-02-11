@@ -1,0 +1,96 @@
+/* CSS Document for calc webpage */
+
+body {
+	background-image: url(images/banner.jpg);
+	font-family: "Roboto Mono", monospace;
+	background-attachment: fixed;
+}
+
+header {
+	font-size: 25px;
+}
+
+header.home {
+	font-size: 40px;
+}
+
+#box {
+	margin: auto;
+	width: 85%;
+	border: solid black 3px;
+	padding: 15px;
+	background-color: white;
+}
+
+#box.home {
+	width: 75%;
+}
+
+#text {
+	width: 47%;
+	padding: 20px;
+}
+
+table{
+	float: right;
+	color: green;
+	background-color: green;
+ }
+
+tr {
+	color: green;
+}
+ 
+nav ul {
+	margin: auto;
+	width: 20%;
+	float: right;
+	padding: 10px;
+	list-style-type: none;
+	line-height: 35px;
+	font-size: 20px;
+	overflow: hidden;
+	border: solid purple 2px;
+	background-color: teal;
+	text-align: center;
+}
+
+nav.home ul {
+	margin: 0px 50px;
+	width: auto;
+	float: none;
+	padding: 15px;
+	letter-spacing: 3px;
+	line-height: 50px;
+	font-size: 32px;
+}
+
+nav ul a.home_button {
+	color: yellow;
+	text-align: left;
+	padding: 4px;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+nav a:not(.home_button) {
+	display: block;
+	color: yellow;
+	text-align: left;
+	padding: 5px;
+	text-decoration: none;
+}
+
+nav.home a {
+	text-align: center;
+	padding: 10px;
+}
+
+nav a:hover:not(.active) {
+	background-color: #6c56c4;
+}
+
+nav a.active {
+	color: white;
+	background-color: green;
+}
