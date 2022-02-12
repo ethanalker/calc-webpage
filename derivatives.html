@@ -1,59 +1,171 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Derivative Reference</title>
-    <meta charset="utf-8" />
-    <link href="styles.css" rel="stylesheet" type="text/css" />
-    <link rel="icon" type="image/png" href="images/derivative/favicon-32x32.png" sizes="32x32" />
-    <link rel="icon" type="image/png" href="images/derivative/favicon-16x16.png" sizes="16x16" />
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-</head>
-<body>
-    <div id="box" >
-        <header>
-            <table>
-                <tr>
-                    <td>
-                        <h1>Derivative Reference</h1>
-                    </td>
-                    <td>
-                        <nav>
-                            <ul>
-                                <li><a href="index.html" title="Home Page" class="home_button" >Home</a></li>
-                                <li><a href="derivatives.html" title="Derivative Reference" class="active" >Derivatives</a></li>
-                                <li><a href="integrals.html" title="Integral Reference" >Integrals</a></li>
-                                <li><a href="series.html" title="Convergence Reference" >Infinite Series</a></li>
-                            </ul>
-                        </nav>
-                    </td>
-                </tr>
-            </table>
-        </header>
-        <section>
-            <table>
-                <tr>
-                    <td>
-                        Definition of Derivative: $$f'(x)= {\lim_{h \to 0}\frac{f(x+h)-f(x)}{h}}$$
-                    </td>
-                    <td>
-                        Constant Rule: $$\frac{d}{dx}(c)=0$$
-                    </td>
-                    <td>
-                        Power Rule: $$\frac{d}{dx}\left(x^n\right)=nx^{n-1}$$
-                    </td>
-                    <td>
-                        Product Rule: $$\frac{d}{dx}\left(f\cdot g\right)=f\cdot g' + g\cdot f'$$
-                    </td>
-                    <td>
-                        Quotient Rule: $$\frac{d}{dx}\left(\frac{f}{g}\right)=\frac{g\cdot f' - f\cdot g'}{g^2}$$
-                    </td>
-                    <td>
-                        Chain Rule: $$\frac{d}{dx}\left(f(g)\right)=f'(g)\cdot g'$$
-                    </td>
-                </tr>
-            </table>
-        </section>
-    </div>
-</body>
+    <head>
+        <title>Derivative Reference</title>
+        <meta charset="utf-8" />
+        <link href="styles.css" rel="stylesheet" type="text/css" />
+        <link rel="icon" type="image/png" href="images/derivative/favicon-32x32.png" sizes="32x32" />
+        <link rel="icon" type="image/png" href="images/derivative/favicon-16x16.png" sizes="16x16" />
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    </head>
+    <body>
+        <div id="box" >
+            <header>
+                <table>
+                    <tr>
+                        <td>
+                            <h1>Derivative Reference</h1>
+                        </td>
+                        <td>
+                            <nav>
+                                <ul>
+                                    <li><a href="index.html" title="Home Page" class="home_button" >Home</a></li>
+                                    <li><a href="derivatives.html" title="Derivative Reference" class="active" >Derivatives</a></li>
+                                    <li><a href="integrals.html" title="Integral Reference" >Integrals</a></li>
+                                    <li><a href="series.html" title="Convergence Reference" >Infinite Series</a></li>
+                                </ul>
+                            </nav>
+                        </td>
+                    </tr>
+                </table>
+            </header>
+            <section>
+                <table>
+                    <tr>
+                        <td>
+                            Definition of Derivative: $$f'(x)= {\lim_{h \to 0}\frac{f(x+h)-f(x)}{h}}$$
+                        </td>
+                        <td>
+                            Constant Rule: $$\frac{d}{dx}(c)=0$$
+                        </td>
+                        <td>
+                            Power Rule: $$\frac{d}{dx}\left(x^n\right)=nx^{n-1}$$
+                        </td>
+                        <td>
+                            Product Rule: $$\frac{d}{dx}\left(f\cdot g\right)=f\cdot g' + g\cdot f'$$
+                        </td>
+                        <td>
+                            Quotient Rule: $$\frac{d}{dx}\left(\frac{f}{g}\right)=\frac{g\cdot f' - f\cdot g'}{g^2}$$
+                        </td>
+                        <td>
+                            Chain Rule: $$\frac{d}{dx}\left(f(g)\right)=f'(g)\cdot g'$$
+                        </td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td>
+                            $$\frac{d}{dx} \left( \frac{1}{x} \right)= \frac{-1}{x^2} $$
+                        </td>
+                        <td>
+                            $$\frac{d}{dx} \left( e^x \right)= e^x $$
+                        </td>
+                        <td>
+                            $$\frac{d}{dx} \left( \ln{x} \right)= \frac{1}{x} $$
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            $$\frac{d}{dx} \left( \sqrt{x} \right)= \frac{1}{2\sqrt{x}} $$
+                        </td>
+                        <td>
+                            $$\frac{d}{dx} \left( b^x \right)= b^x\ln b $$
+                        </td>
+                        <td>
+                            $$\frac{d}{dx} \left( \log_b{x} \right)= \frac{1}{x\ln b} $$
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            $$\frac{d}{dx} \left( \sin x \right)= \cos x $$
+                        </td>
+                        <td>
+                            $$\frac{d}{dx} \left( \cos x \right)= -\sin x $$
+                        </td>
+                        <td>
+                            $$\frac{d}{dx} \left( \tan x \right)= \sec^2 x $$
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            $$\frac{d}{dx} \left( \csc x \right)= -\csc x \cot x $$
+                        </td>
+                        <td>
+                            $$\frac{d}{dx} \left( \sec x \right)= \sec x \tan x $$
+                        </td>
+                        <td>
+                            $$\frac{d}{dx} \left( \cot x \right)= -\csc^2 x $$
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            $$\frac{d}{dx} \left( \sin^{-1} x \right)= \frac{1}{ \sqrt{1-x^2}} $$
+                        </td>
+                        <td>
+                            $$\frac{d}{dx} \left( \cos^{-1} x \right)= \frac{-1}{ \sqrt{1-x^2}} $$
+                        </td>
+                        <td>
+                            $$\frac{d}{dx} \left( \tan^{-1} x \right)= \frac{1}{1+x^2} $$
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            $$\frac{d}{dx} \left( \csc^{-1} x \right)= \frac{-1}{x \sqrt{x^2-1}} $$
+                        </td>
+                        <td>
+                            $$\frac{d}{dx} \left( \sec^{-1} x \right)= \frac{1}{x \sqrt{x^2-1}} $$
+                        </td>
+                        <td>
+                            $$\frac{d}{dx} \left( \cot^{-1} x \right)= \frac{-1}{1+x^2} $$
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            $$\frac{d}{dx} \left( \sinh x \right)= \cosh x $$
+                        </td>
+                        <td>
+                            $$\frac{d}{dx} \left( \cosh x \right)= \sinh x $$
+                        </td>
+                        <td>
+                            $$\frac{d}{dx} \left( \tanh x \right)= \operatorname{sech}^2 x $$
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            $$\frac{d}{dx} \left( \operatorname{csch} x \right)= -\operatorname{csch}x \coth x $$
+                        </td>
+                        <td>
+                            $$\frac{d}{dx} \left( \operatorname{sech} x \right)= -\operatorname{sech}x \tanh x $$
+                        </td>
+                        <td>
+                            $$\frac{d}{dx} \left( \coth x \right)= -\operatorname{csch}^2 x$$
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            $$\frac{d}{dx} \left( \sinh^{-1} x \right)= \frac{1}{ \sqrt{x^2+1}} $$
+                        </td>
+                        <td>
+                            $$\frac{d}{dx} \left( \cosh^{-1} x \right)= \frac{1}{ \sqrt{x^2-1}} $$
+                        </td>
+                        <td>
+                            $$\frac{d}{dx} \left( \tanh^{-1} x \right)= \frac{1}{1-x^2} $$
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            $$\frac{d}{dx} \left( \operatorname{csch}^{-1} x \right)= \frac{-1}{ |x|\sqrt{1+x^2}} $$
+                        </td>
+                        <td>
+                            $$\frac{d}{dx} \left( \operatorname{sech}^{-1} x \right)= \frac{-1}{ x\sqrt{1-x^2}}$$
+                        </td>
+                        <td>
+                            $$\frac{d}{dx} \left( \coth^{-1} x \right)= \frac{1}{1-x^2} $$
+                        </td>
+                    </tr>
+                </table>
+            </section>
+        </div>
+    </body>
 </html>
