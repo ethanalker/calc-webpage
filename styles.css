@@ -31,11 +31,6 @@ header.home {
 	padding: 20px;
 }
 
-.MathJax_Display { 
-    text-align: left !important;
-    display: inline !important;
-}
-
 p {
 	font-size: 24px;
 }
@@ -46,7 +41,7 @@ h2 {
 }
 
 header td {
-	border: none;
+	border: 1px solid black;
 }
 
 table {
@@ -60,9 +55,9 @@ td {
 
 nav ul {
 	margin: auto;
-	width: auto;
+	width: 250px;
 	padding: 10px;
-	float: none;
+	float: right;
 	list-style-type: none;
 	line-height: 35px;
 	font-size: 20px;
