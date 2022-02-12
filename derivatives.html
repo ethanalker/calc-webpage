@@ -6,6 +6,8 @@
 <link href="styles.css" rel="stylesheet" type="text/css" />
 <link rel="icon" type="image/png" href="images/derivative/favicon-32x32.png" sizes="32x32" />
 <link rel="icon" type="image/png" href="images/derivative/favicon-16x16.png" sizes="16x16" />
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
 <div id="box" >
@@ -20,6 +22,47 @@
 <header>
 <h1>Derivative Reference</h1>
 </header>
+<section>
+    <table>
+        <tr>
+            <th>
+                Definition of Derivative: $$f'(x)= {\lim_{h \to 0}\frac{f(x+h)-f(x)}{h}}$$
+            </th>
+        </tr>
+        <tr>
+            <td>
+                Constant Rule:
+            </td>
+            <td>
+                $$\frac{d}{dx}(c)=0$$
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Power Rule:
+            </td>
+            <td>
+                $$\frac{d}{dx}\left(x^n\right)=nx^{n-1}$$
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Product Rule:
+            </td>
+            <td>
+                $$\frac{d}{dx}\left(f\cdot g\right)=f\cdot g' + g\cdot f'$$
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Quotient Rule:
+            </td>
+            <td>
+                $$\frac{d}{dx}\left(\frac{f}{g}\right)=\frac{g\cdot f' - f\cdot g'}{g^2}$$
+            </td>
+        </tr>
+    </table>
+</section>
 </div>
 </body>
 </html>
