@@ -1,68 +1,59 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Derivative Reference</title>
-<meta charset="utf-8" />
-<link href="styles.css" rel="stylesheet" type="text/css" />
-<link rel="icon" type="image/png" href="images/derivative/favicon-32x32.png" sizes="32x32" />
-<link rel="icon" type="image/png" href="images/derivative/favicon-16x16.png" sizes="16x16" />
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <title>Derivative Reference</title>
+    <meta charset="utf-8" />
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" type="image/png" href="images/derivative/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="images/derivative/favicon-16x16.png" sizes="16x16" />
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
-<div id="box" >
-<nav>
-<ul>
-<li><a href="index.html" title="Home Page" class="home_button" >Home</a></li>
-<li><a href="derivatives.html" title="Derivative Reference" class="active" >Derivatives</a></li>
-<li><a href="integrals.html" title="Integral Reference" >Integrals</a></li>
-<li><a href="series.html" title="Convergence Reference" >Infinite Series</a></li>
-</ul>
-</nav>
-<header>
-<h1>Derivative Reference</h1>
-</header>
-<section>
-    <table>
-        <tr>
-            <th>
-                Definition of Derivative: $$f'(x)= {\lim_{h \to 0}\frac{f(x+h)-f(x)}{h}}$$
-            </th>
-        </tr>
-        <tr>
-            <td>
-                Constant Rule:
-            </td>
-            <td>
-                $$\frac{d}{dx}(c)=0$$
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Power Rule:
-            </td>
-            <td>
-                $$\frac{d}{dx}\left(x^n\right)=nx^{n-1}$$
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Product Rule:
-            </td>
-            <td>
-                $$\frac{d}{dx}\left(f\cdot g\right)=f\cdot g' + g\cdot f'$$
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Quotient Rule:
-            </td>
-            <td>
-                $$\frac{d}{dx}\left(\frac{f}{g}\right)=\frac{g\cdot f' - f\cdot g'}{g^2}$$
-            </td>
-        </tr>
-    </table>
-</section>
-</div>
+    <div id="box" >
+        <header>
+            <table>
+                <tr>
+                    <td>
+                        <h1>Derivative Reference</h1>
+                    </td>
+                    <td>
+                        <nav>
+                            <ul>
+                                <li><a href="index.html" title="Home Page" class="home_button" >Home</a></li>
+                                <li><a href="derivatives.html" title="Derivative Reference" class="active" >Derivatives</a></li>
+                                <li><a href="integrals.html" title="Integral Reference" >Integrals</a></li>
+                                <li><a href="series.html" title="Convergence Reference" >Infinite Series</a></li>
+                            </ul>
+                        </nav>
+                    </td>
+                </tr>
+            </table>
+        </header>
+        <section>
+            <table>
+                <tr>
+                    <td>
+                        Definition of Derivative: $$f'(x)= {\lim_{h \to 0}\frac{f(x+h)-f(x)}{h}}$$
+                    </td>
+                    <td>
+                        Constant Rule: $$\frac{d}{dx}(c)=0$$
+                    </td>
+                    <td>
+                        Power Rule: $$\frac{d}{dx}\left(x^n\right)=nx^{n-1}$$
+                    </td>
+                    <td>
+                        Product Rule: $$\frac{d}{dx}\left(f\cdot g\right)=f\cdot g' + g\cdot f'$$
+                    </td>
+                    <td>
+                        Quotient Rule: $$\frac{d}{dx}\left(\frac{f}{g}\right)=\frac{g\cdot f' - f\cdot g'}{g^2}$$
+                    </td>
+                    <td>
+                        Chain Rule: $$\frac{d}{dx}\left(f(g)\right)=f'(g)\cdot g'$$
+                    </td>
+                </tr>
+            </table>
+        </section>
+    </div>
 </body>
 </html>

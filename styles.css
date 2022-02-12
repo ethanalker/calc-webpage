@@ -40,15 +40,24 @@ h2 {
 	font-weight: normal;
 }
 
+header td {
+	border: none;
+}
+
+table {
+	width: 100%;
+}
+
 td {
-	text-align: left;
+	border: 1px solid black;
+	padding: 10px;
 }
 
 nav ul {
 	margin: auto;
-	width: 20%;
-	float: right;
+	width: auto;
 	padding: 10px;
+	float: none;
 	list-style-type: none;
 	line-height: 35px;
 	font-size: 20px;
@@ -59,7 +68,7 @@ nav ul {
 }
 
 nav.home ul {
-	margin: 0px 50px;
+	margin: auto;
 	width: auto;
 	float: none;
 	padding: 15px;
