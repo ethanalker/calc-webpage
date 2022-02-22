@@ -37,11 +37,7 @@
 							Definition of Integral: $$ \int_a^b f\left(x\right) \,dx = \lim_{n \to \infty} \sum_{k=1}^n f\left(a + \frac{k(b-a)}{n} \right) \cdot \left(\frac{b-a}{n}\right) $$
 						</td>
 						<td>
-							Fundamental Theorem of Calculus: $$ F\left(b\right) = F\left(a\right) + \int_a^b f\left(x\right) \,dx $$
-						</td>
-
-						<td>
-							Power Rule: $$ \int x^n \,dx = \frac{x^{n+1}}{n+1} + C $$
+							Fundamental Theorem of Calculus: $$ f\left(b\right) = f\left(a\right) + \int_a^b f'\left(x\right) \,dx $$
 						</td>
 						<td>
 							Integration by Parts: $$ \int u \,dv = uv - \int v \,du $$
@@ -51,7 +47,30 @@
 				<table>
 					<tr>
 						<td>
-							$$ \int \frac{1}{x} \,dx = \ln{x} + C $$
+							$$ \int_a^a f\left(x\right) \,dx = 0 $$
+						</td>
+						<td>
+							$$ \int_a^b f\left(x\right) \,dx = -\int_b^a f\left(x\right) \,dx $$
+						</td>
+						<td>
+							$$ \int_a^c f\left(x\right) \,dx = \int_a^b f\left(x\right) \,dx + \int_b^c f\left(x\right) \,dx $$
+						</td>
+					</tr>
+				</table>
+				<table>
+					<tr>
+						<td>
+							$$ \int_{-a}^a odd\left(x\right) \,dx = 0 $$
+						</td>
+						<td>
+							$$ \int_{-a}^a even\left(x\right) \,dx = 2 \int_0^a even\left(x\right) \,dx $$
+						</td>
+					</tr>
+				</table>
+				<table>
+					<tr>
+						<td>
+							$$ \int x^n \,dx = \frac{x^{n+1}}{n+1} + C $$
 						</td>
 						<td>
 							$$ \int e^x \,dx = e^x + C $$
@@ -62,10 +81,10 @@
 					</tr>
 					<tr>
 						<td>
-							$$ \int \frac{1}{x} \,dx = \ln{x} + C $$
+							$$ \int \frac{1}{x} \,dx = \ln \left| x \right| + C $$
 						</td>
 						<td>
-							$$ \int e^x \,dx = e^x + C $$
+							$$ \int b^x \,dx = \frac{b^x}{\ln b} + C $$
 						</td>
 						<td>
 							$$ \int \log_b{x} \,dx = \frac{x\left(\ln{x} - 1\right)}{\ln{b}} + C $$
