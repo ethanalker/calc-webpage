@@ -4,10 +4,18 @@ body {
 	background-image: url(images/banner.jpg);
 	font-family: "Roboto Mono", monospace;
 	background-attachment: fixed;
+	font-size: 24px;
 }
 
 header {
 	font-size: 25px;
+	background-image: url(images/header-image2.jpg);
+}
+
+footer {
+	background-color: beige;
+	text-align: center;
+	font-size: small;
 }
 
 header.home {
@@ -31,7 +39,7 @@ header.home {
 	padding: 20px;
 }
 
-p {
+ul {
 	font-size: 24px;
 }
 
@@ -41,16 +49,25 @@ h2 {
 }
 
 header td {
-	border: 1px solid black;
+	border: none;
 }
 
 table {
 	width: 100%;
 }
 
+section tr:nth-child(odd):not(.top) {
+	background-color: beige;
+}
+
 td {
 	border: 1px solid black;
 	padding: 10px;
+	font-size: medium;
+}
+
+.border {
+	border: thin black solid;
 }
 
 nav ul {

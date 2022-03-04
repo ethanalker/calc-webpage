@@ -4,8 +4,8 @@
         <title>Integral Reference</title>
         <meta charset="utf-8" />
         <link href="styles.css" rel="stylesheet" type="text/css" />
-        <link rel="icon" type="image/png" href="images/derivative/favicon-32x32.png" sizes="32x32" />
-        <link rel="icon" type="image/png" href="images/derivative/favicon-16x16.png" sizes="16x16" />
+        <link rel="icon" type="image/png" href="images/integral/favicon-32x32.png" sizes="32x32" />
+        <link rel="icon" type="image/png" href="images/integral/favicon-16x16.png" sizes="16x16" />
         <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
         <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     </head>
@@ -32,7 +32,7 @@
             </header>
 			<section>
 				<table>
-					<tr>
+					<tr class="top" >
 						<td>
 							Definition of Integral: $$ \int_a^b f\left(x\right) \,dx = \lim_{n \to \infty} \sum_{k=1}^n f\left(a + \frac{k(b-a)}{n} \right) \cdot \left(\frac{b-a}{n}\right) $$
 						</td>
@@ -58,7 +58,7 @@
 					</tr>
 				</table>
 				<table>
-					<tr>
+					<tr class="top" >
 						<td>
 							$$ \int_{-a}^a odd\left(x\right) \,dx = 0 $$
 						</td>
@@ -92,6 +92,11 @@
 					</tr>
 				</table>
 			</section>
+            <footer>
+                <hr>
+                <p>&#x222b Created by Ethan Alker dx</p>
+                <hr>
+            </footer>
         </div>
     </body>
 </html>
